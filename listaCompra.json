@@ -1,0 +1,103 @@
+{
+    "supermercados": [
+      {
+        "nombre": "Mercadona",
+        "direccion": "Gran Via de les Corts Catalanes, 655",
+        "geolocalizacion": {
+          "latitud": 41.39809,
+          "longitud": 2.16937
+        },
+        "productos": [
+          {
+            "nombre": "Leche",
+            "categoria": "Lácteos",
+            "oferta": true,
+            "porcentaje_oferta": 20,
+            "periodo_vigencia": {
+              "fecha_inicio": "2023-04-01",
+              "fecha_fin": "2023-04-30"
+            },
+            "unidades": 1,
+            "unidad_medida": "litros",
+            "precio_unitario": 0.75,
+            "adquirido": false
+          },
+          {
+            "nombre": "Zanahoria",
+            "categoria": "Frutas y verduras",
+            "oferta": false,
+            "unidades": 5,
+            "unidad_medida": "kilos",
+            "precio_unitario": 0.65,
+            "adquirido": true
+          },
+          {
+            "nombre": "Pan de molde",
+            "categoria": "Panadería",
+            "oferta": true,
+            "porcentaje_oferta": 15,
+            "periodo_vigencia": {
+              "fecha_inicio": "2023-04-01",
+              "fecha_fin": "2023-04-15"
+            },
+            "unidades": 1,
+            "unidad_medida": "paquete",
+            "precio_unitario": 1.15,
+            "adquirido": false
+          },
+          {
+            "nombre": "Tomate",
+            "categoria": "Frutas y verduras",
+            "oferta": false,
+            "unidades": 4,
+            "unidad_medida": "kilos",
+            "precio_unitario": 0.55,
+            "adquirido": false
+          }
+        ]
+      },
+      {
+        "nombre": "Lidl",
+        "direccion": "Calle de Valencia, 359",
+        "geolocalizacion": {
+          "latitud": 41.38869,
+          "longitud": 2.15674
+        },
+        "productos": [
+          {
+            "nombre": "Agua mineral",
+            "categoria": "Bebidas",
+            "oferta": false,
+            "unidades": 5,
+            "unidad_medida": "litros",
+            "precio_unitario": 2.25,
+            "adquirido": true
+          },
+          {
+            "nombre": "Manzana",
+            "categoria": "Frutas y verduras",
+            "oferta": true,
+            "porcentaje_oferta": 10,
+            "periodo_vigencia": {
+              "fecha_inicio": "2023-04-01",
+              "fecha_fin": "2023-04-30"
+            },
+            "unidades": 2,
+            "unidad_medida": "kilos",
+            "precio_unitario": 1.20,
+            "adquirido": false
+          },
+          {
+            "nombre": "Cerveza",
+            "categoria": "Bebidas alcohólicas",
+            "oferta": false,
+            "unidades": 12,
+            "unidad_medida": "latas",
+            "precio_unitario": 3.25,
+            "adquirido": false
+          }
+        ]
+      }
+    ]
+  }
+  

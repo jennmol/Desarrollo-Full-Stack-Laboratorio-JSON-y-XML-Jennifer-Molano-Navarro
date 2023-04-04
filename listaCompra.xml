@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<supermercado nombre="Consum" direccion="Calle de Pujades, 350">
+  <geolocalizacion>
+    <latitud>41.4100</latitud>
+    <longitud>2.2033</longitud>
+  </geolocalizacion>
+  <productos>
+    <producto>
+      <nombre>Leche</nombre>
+      <oferta>si</oferta>
+      <periodo_vigencia>
+        <fecha_inicio>2023-04-01</fecha_inicio>
+        <fecha_fin>2023-04-30</fecha_fin>
+      </periodo_vigencia>
+      <unidades>2</unidades>
+      <unidad_medida>litros</unidad_medida>
+      <precio_unitario>1.20</precio_unitario>
+      <adquirido>no</adquirido>
+      <porcentaje_descuento>10%</porcentaje_descuento>
+    </producto>
+    <producto>
+      <nombre>Yogures</nombre>
+      <oferta>no</oferta>
+      <unidades>6</unidades>
+      <unidad_medida>unidades</unidad_medida>
+      <precio_unitario>1.50</precio_unitario>
+      <adquirido>si</adquirido>
+    </producto>
+    <producto>
+      <nombre>Tomates</nombre>
+      <oferta>si</oferta>
+      <periodo_vigencia>
+        <fecha_inicio>2023-04-01</fecha_inicio>
+        <fecha_fin>2023-04-15</fecha_fin>
+      </periodo_vigencia>
+      <unidades>2</unidades>
+      <unidad_medida>kilos</unidad_medida>
+      <precio_unitario>1.00</precio_unitario>
+      <adquirido>no</adquirido>
+      <porcentaje_descuento>20%</porcentaje_descuento>
+    </producto>
+    <producto>
+      <nombre>Pan de molde</nombre>
+      <oferta>no</oferta>
+      <unidades>1</unidades>
+      <unidad_medida>paquete</unidad_medida>
+      <precio_unitario>1.20</precio_unitario>
+      <adquirido>no</adquirido>
+    </producto>
+  </productos>
+</supermercado>
